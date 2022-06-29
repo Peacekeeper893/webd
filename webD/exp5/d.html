@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        input[type=text]{
+            width: 100%;
+        }
+        .Heading{
+            background-color: antiquewhite;
+            text-align: center;
+        }
+    </style>
+
+    <script>
+        function Bold(){
+            document.getElementById("bold").style.fontWeight="Bold";
+            console.log("inBold");
+        }
+
+        function Italic(){
+            document.getElementById("italic").style.fontStyle="italic";
+            console.log("inItalic");
+        }
+
+        function Underline(){
+            document.getElementById("underline").style.textDecoration="underline";
+        }
+    </script>
+<title>
+    Forms using html
+</title>
+</head>
+<body>
+
+<h2 class="Heading">Personal Information</h2>
+<form style="background-color:beige;">
+    <p id="bold">This is the text to be bolded</p>
+<button type="button" onclick="Bold()">Bold This text</button>
+<br><br>
+
+<p id="italic">This is the text to be italicised</p>
+<button type="button" onclick="Italic()" for="italic">Italicize This text</button>
+
+<p id="underline">This is the text to be underlined</p>
+<button type="button" onclick="Underline()">Underline This text</button>
+
+</form>
+
+</body>
+
+
+
+</html>

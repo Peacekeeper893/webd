@@ -1,0 +1,62 @@
+
+<html>
+    <head>
+        <link rel="stylesheet" href="4.css">
+        <script src="4.js"></script>
+    </head>
+    <style>
+        #head-img{
+            float: left;
+            width: 300px;
+        }
+        #tail-img{
+            float: left;
+            margin-left: 300px;
+        }
+        
+    </style>
+    <body>
+        
+
+        <div style="text-align: center">Program to Toss a coin and count the frequency</div>
+
+        <div id="result">
+        <span id="head-img"> </span>
+        <span id="tail-img"></span>            
+
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <div id="toss-button">
+            <button type="button" onclick="tossCoin()">Toss Button</button>
+        </div>
+
+        <br/>
+        <br>
+        <br>
+
+
+        <table border="1px">
+            <tr>
+                <th>Face</th>
+                <th>Frequency</th>
+                <th>Percentage</th>
+            </tr>
+            <tr>
+                <td>H</td>
+                <td id="hf"> </td>
+                <td id="hp"> </td>
+            </tr>
+            <tr>
+                <td>T</td>
+                <td id="tf">  </td>
+                <td id="tp">  </td>
+            </tr>
+        </table>
+    </body>
+</html>

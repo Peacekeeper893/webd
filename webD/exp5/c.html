@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Basic Html Page </title>
+    <script>
+        function ColorChange(){
+
+            var randomColor = Math.floor(Math.random()*16777215).toString(16);
+                document.getElementById("body").style.backgroundColor= "#" + randomColor ;
+        }
+
+        // function ColorChange2(){
+        //     document.getElementById("body").style.backgroundColor= "#" + randomColor ;
+        // }
+        </script>
+    <style>
+        #body{
+            background-color: rgb(235, 241, 241);
+        }
+    </style>
+
+</head>
+<body id="body">
+    <script>
+        setInterval(ColorChange,400);
+        // setInterval(ColorChange2,600);
+    </script>
+
+    <p >This is a paragraph in the body</p>
+
+    <p>This page is supposed to change colors</p>
+
+
+</body>
+
+
+</html>

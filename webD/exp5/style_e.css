@@ -1,0 +1,21 @@
+body{
+    background-image: url(https://r1.ilikewallpaper.net/iphone-wallpapers/download/20882/Fantasy-Football-Stadium-iphone-wallpaper-ilikewallpaper_com.jpg);
+    
+
+}
+
+
+p{
+    color: yellow;
+    font-size: larger;
+    font-weight: bolder
+}
+.player1,.player2,.player3{
+    float: left;
+    margin-right: 15px;
+
+}
+
+#stat1,#stat2,#stat3{
+    display: none;
+}
